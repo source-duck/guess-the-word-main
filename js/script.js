@@ -32,9 +32,9 @@ guessLetterButton.addEventListener("click", function (e) {
   if (goodGuess) {
     makeGuess(guess);
   }
+
   console.log(guess);
   letterInput.value = "";
-
 });
 
 const validateInput = function (input) {
